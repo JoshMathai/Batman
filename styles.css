@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background: #030306;
+  color: #EDE8DB;
+  font-family: 'Cormorant Garamond', serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  background: black;
+  border-bottom: 1px solid #C9A84C;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #C9A84C;
+  text-decoration: none;
+}
+
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+
+section {
+  padding: 60px 20px;
+  border-bottom: 1px solid #333;
+}
+
+h2 {
+  color: #C9A84C;
+}
+
+.artifact {
+  margin-top: 20px;
+  padding: 15px;
+  border: 1px solid #444;
+  background: #0a0a18;
+}
+
+.quote {
+  text-align: center;
+  padding: 60px 20px;
+  font-style: italic;
+  font-size: 1.3rem;
+  color: #C9A84C;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  border-top: 1px solid #333;
+}
