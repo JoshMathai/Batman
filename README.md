@@ -1,5 +1,31 @@
-# The Gotham Archive: A Digital Museum Exhibit
+# The Gotham Archive: A ScrollyTelling Digital Museum Exhibit
 ### *Batman: The Animated Series — How One Show Changed Everything*
+
+---
+
+## ScrollyTelling Website
+
+This is a **ScrollyTelling** website — a modern web design technique that reveals content as users scroll, creating an immersive narrative experience. As you scroll down, animated elements progressively appear, creating a cinematic journey through Batman: The Animated Series' legacy.
+
+### ScrollyTelling Features
+
+**Scroll-Triggered Animations:**
+- Elements fade in, slide in, and scale up as they enter the viewport
+- Staggered animations create visual rhythm and guide attention
+- Parallax effects add depth to the reading experience
+- Smooth transitions between sections tell the story visually
+
+**Interactive Elements:**
+- Click "Learn more" links in panels to explore detailed content pages
+- Modal-style content pages provide deep dives into specific topics
+- Navigation updates automatically as you scroll
+- Smooth scroll anchors for all navigation links
+
+**Visual Storytelling:**
+- Hero section with animated entrance that welcomes visitors
+- Six exhibition rooms that progressively reveal information
+- Thematic color scheme (gold, black, dark blue) creates mood
+- Dark backgrounds with strategic lighting mirrors the show's "Dark Deco" aesthetic
 
 ---
 
@@ -11,13 +37,22 @@ The site is designed for Batman fans, animation enthusiasts, and students of med
 
 ---
 
+## How to Use This Site
+
+1. **Scroll Through the Exhibition** - Start at the hero section and scroll down to experience the full narrative
+2. **Click Navigation Links** - Use the sticky navbar to jump to specific exhibition rooms
+3. **Explore Detail Pages** - Click "Learn more" links within panels to open expanded content pages
+4. **Return to Main Exhibition** - All detail pages have links back to the main exhibition
+
+---
+
 ## Design Framework
 
-### 1. Design Style — Art Deco
+### 1. Design Style — Art Deco & ScrollyTelling
 
 The visual system of the site draws directly from **Art Deco**, the same aesthetic tradition that inspired the show's own production design. The show's creators famously described their style as "Dark Deco" — a fusion of 1930s–40s Gotham architecture, German Expressionist shadow play, and Film Noir atmosphere.
 
-**How Art Deco manifests on the site:**
+**How Art Deco and ScrollyTelling manifest on the site:**
 - Geometric symmetry and bold angular layouts
 - Gold, black, and deep midnight blue as the dominant palette
 - Ornamental dividers, stepped borders, and radiating sunburst motifs
@@ -313,4 +348,4 @@ Final review prompt:
 
 ---
 
-*Project by [Your Name] | Web Design & Development | Spring 2026*
+*Project by [Joshua Mathai] | Web Design & Development | Spring 2026*

@@ -4,13 +4,13 @@
   <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>The Gotham Archive — Batman: The Animated Series</title>
-  <!-- Link your external CSS here -->
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=IBM+Plex+Mono:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
 <!-- Navigation -->
-<nav>
+<nav class="navbar">
   <div class="nav-logo">Gotham Archive <span>B:TAS</span></div>
   <ul class="nav-rooms">
     <li><a href="#origins">I. Origins</a></li>
@@ -22,147 +22,208 @@
   </ul>
 </nav>
 
-<!-- Hero Section -->
-<section id="entrance">
-  <div class="hero-frame">
-    <div class="hero-subtitle">The Gotham Archive presents</div>
-    <h1 class="hero-title">Batman:<br/><em>The Animated Series</em></h1>
-    <div class="hero-year">◆ 1992 — 1995 ◆</div>
-    <p class="hero-tagline">How a single animated television series permanently reshaped the mythology of the Dark Knight — and the entire language of superhero storytelling.</p>
-    <a href="#origins" class="hero-enter">Enter the Exhibition</a>
+<!-- Hero Section with Parallax -->
+<section id="entrance" class="hero-section">
+  <div class="hero-background">
+    <div class="hero-glow"></div>
+  </div>
+  <div class="hero-frame scroll-fade-in">
+    <div class="hero-subtitle scroll-up">The Gotham Archive presents</div>
+    <h1 class="hero-title scroll-up-delay-1">Batman:<br/><em>The Animated Series</em></h1>
+    <div class="hero-year scroll-up-delay-2">◆ 1992 — 1995 ◆</div>
+    <p class="hero-tagline scroll-up-delay-3">How a single animated television series permanently reshaped the mythology of the Dark Knight — and the entire language of superhero storytelling.</p>
+    <a href="#origins" class="hero-enter scroll-up-delay-4">Enter the Exhibition</a>
+  </div>
+  <div class="scroll-indicator">
+    <span>Scroll to explore</span>
+    <div class="scroll-arrow"></div>
   </div>
 </section>
 
+
 <!-- Exhibition Room I: Origins -->
-<section id="origins">
+<section id="origins" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room I</div>
-      <h2 class="room-title">The Hall of <em>Origins</em></h2>
-      <p class="room-subtitle">How the right show arrived at exactly the right moment</p>
+      <div class="room-number scroll-slide-in">Exhibition Room I</div>
+      <h2 class="room-title scroll-slide-in-delay-1">The Hall of <em>Origins</em></h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">How the right show arrived at exactly the right moment</p>
     </div>
-    <div class="panel">
-      <div class="panel-label">Context</div>
-      <div class="panel-title">The Moment Everything Changed</div>
-      <p>In September 1992, Fox Kids aired the premiere of <em>Batman: The Animated Series</em>. Its opening episode featured a silent, atmospheric cold open set during a bank robbery, scored entirely with orchestral music. There was no dialogue for nearly three minutes. The Dark Knight moved through rain and shadow while a gothic score pressed against the screen like something from a much older, much graver world.</p>
-      <p>Nothing like it had been on American television for children before. And it would never quite leave the culture again.</p>
-    </div>
-    <div class="panel">
-      <div class="panel-label">The Mandate</div>
-      <div class="panel-title">A Children's Show That Refused to Be One</div>
-      <p>Fox Kids commissioned a Batman cartoon to capitalize on Tim Burton's 1989 film. The network expected bright colors and easy moral lessons. What they received was a show that hired adult screenwriters, sourced material from the noir tradition, and treated its audience as intelligent people capable of sitting with ambiguity and tragedy.</p>
+    
+    <div class="scroll-container">
+      <div class="panel scroll-pop-in">
+        <div class="panel-label">Context</div>
+        <div class="panel-title">The Moment Everything Changed</div>
+        <p>In September 1992, Fox Kids aired the premiere of <em>Batman: The Animated Series</em>. Its opening episode featured a silent, atmospheric cold open set during a bank robbery, scored entirely with orchestral music. There was no dialogue for nearly three minutes. The Dark Knight moved through rain and shadow while a gothic score pressed against the screen like something from a much older, much graver world.</p>
+        <p>Nothing like it had been on American television for children before. And it would never quite leave the culture again.</p>
+      </div>
+      <div class="panel scroll-pop-in-delay-1">
+        <div class="panel-label">The Mandate</div>
+        <div class="panel-title">A Children's Show That Refused to Be One</div>
+        <p>Fox Kids commissioned a Batman cartoon to capitalize on Tim Burton's 1989 film. The network expected bright colors and easy moral lessons. What they received was a show that hired adult screenwriters, sourced material from the noir tradition, and treated its audience as intelligent people capable of sitting with ambiguity and tragedy.</p>
+        <p><a href="details/origins.html" class="panel-link">Learn more about the show's origins →</a></p>
+      </div>
+      <div class="panel scroll-pop-in-delay-2">
+        <div class="panel-label">Reception</div>
+        <div class="panel-title">Cultural Impact from Day One</div>
+        <p>The series immediately resonated with audiences beyond the target demographic. Critics and educators praised its sophistication, while children connected with its emotional depth. This broad appeal set the stage for a five-season run that would reshape how animation was perceived in America.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Exhibition Room II: Art of Gotham -->
-<section id="artofgotham">
+<section id="artofgotham" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room II</div>
-      <h2 class="room-title">The Art of <em>Gotham</em></h2>
-      <p class="room-subtitle">Dark Deco — a visual language without precedent in American animation</p>
+      <div class="room-number scroll-slide-in">Exhibition Room II</div>
+      <h2 class="room-title scroll-slide-in-delay-1">The Art of <em>Gotham</em></h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">Dark Deco — a visual language without precedent in American animation</p>
     </div>
-    <div class="panel">
-      <div class="panel-label">Visual Style</div>
-      <div class="panel-title">Noir and Art Deco Fusion</div>
-      <p>The show combined dark, shadow-heavy imagery with Art Deco architecture, giving Gotham a timeless, cinematic quality that had never been attempted in children's animation.</p>
-    </div>
-    <div class="panel">
-      <div class="panel-label">Technique</div>
-      <div class="panel-title">Black Paper Backgrounds</div>
-      <p>Backgrounds were painted on black paper instead of white, allowing for dramatic lighting and deep shadows that became signature to the series' style.</p>
+    
+    <div class="scroll-container">
+      <div class="panel scroll-pop-in">
+        <div class="panel-label">Visual Style</div>
+        <div class="panel-title">Noir and Art Deco Fusion</div>
+        <p>The show combined dark, shadow-heavy imagery with Art Deco architecture, giving Gotham a timeless, cinematic quality that had never been attempted in children's animation. The visual language was as much a character as any on screen.</p>
+        <p><a href="details/animation.html" class="panel-link">Explore the animation techniques →</a></p>
+      </div>
+      <div class="panel scroll-pop-in-delay-1">
+        <div class="panel-label">Technique</div>
+        <div class="panel-title">Black Paper Backgrounds</div>
+        <p>Backgrounds were painted on black paper instead of white, allowing for dramatic lighting and deep shadows that became signature to the series' style. This choice influenced the mood of every frame and influenced animators for decades to come.</p>
+      </div>
+      <div class="panel scroll-pop-in-delay-2">
+        <div class="panel-label">Legacy</div>
+        <div class="panel-title">Inspiring Modern Animation</div>
+        <p>The "Dark Deco" aesthetic became iconic, inspiring everything from video games to films. Artists cite the show's visual approach as fundamental to their understanding of color, shadow, and cinematic storytelling in animated form.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Exhibition Room III: Voice of the Knight -->
-<section id="voice">
+<section id="voice" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room III</div>
-      <h2 class="room-title">The Voice of the Knight</h2>
-      <p class="room-subtitle">Actors who defined the characters forever</p>
+      <div class="room-number scroll-slide-in">Exhibition Room III</div>
+      <h2 class="room-title scroll-slide-in-delay-1">The Voice of the Knight</h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">Actors who defined the characters forever</p>
     </div>
-    <div class="panel">
-      <div class="panel-label">Batman</div>
-      <div class="panel-title">Kevin Conroy</div>
-      <p>Kevin Conroy provided a dual-identity performance, giving Batman and Bruce Wayne distinct voices and emotional weight.</p>
-    </div>
-    <div class="panel">
-      <div class="panel-label">Joker</div>
-      <div class="panel-title">Mark Hamill</div>
-      <p>Mark Hamill's performance as the Joker became definitive, balancing menace and playfulness, influencing every future interpretation of the character.</p>
+    
+    <div class="scroll-container">
+      <div class="panel scroll-pop-in">
+        <div class="panel-label">Batman</div>
+        <div class="panel-title">Kevin Conroy</div>
+        <p>Kevin Conroy provided a dual-identity performance, giving Batman and Bruce Wayne distinct voices and emotional weight. His Batman was authoritative yet vulnerable, creating a character that resonated across generations.</p>
+        <p><a href="details/cast.html#kevin-conroy" class="panel-link">Read Kevin Conroy's biography →</a></p>
+      </div>
+      <div class="panel scroll-pop-in-delay-1">
+        <div class="panel-label">The Joker</div>
+        <div class="panel-title">Mark Hamill</div>
+        <p>Mark Hamill's performance as the Joker became definitive, balancing menace and playfulness, influencing every future interpretation of the character. His laugh became instantly iconic and inimitable.</p>
+      </div>
+      <div class="panel scroll-pop-in-delay-2">
+        <div class="panel-label">Supporting Cast</div>
+        <div class="panel-title">Ensemble Excellence</div>
+        <p>From Arleen Sorkin as Harley Quinn to Paul Dini as creator and writer, the series assembled extraordinary talent that elevated voice acting as an art form in animation.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Exhibition Room IV: Rogues Gallery -->
-<section id="rogues">
+<section id="rogues" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room IV</div>
-      <h2 class="room-title">Rogues <em>Gallery</em></h2>
-      <p class="room-subtitle">Villains reinvented with depth and tragedy</p>
+      <div class="room-number scroll-slide-in">Exhibition Room IV</div>
+      <h2 class="room-title scroll-slide-in-delay-1">Rogues <em>Gallery</em></h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">Villains reinvented with depth and tragedy</p>
     </div>
-    <div class="panel">
-      <div class="panel-label">Mr. Freeze</div>
-      <div class="panel-title">Heart of Ice</div>
-      <p>The episode "Heart of Ice" reinvented Mr. Freeze as a tragic figure, demonstrating how the series elevated villain storytelling beyond caricature.</p>
-    </div>
-    <div class="panel">
-      <div class="panel-label">Harley Quinn</div>
-      <div class="panel-title">A Lasting Legacy</div>
-      <p>Harley Quinn was introduced in this series and became an iconic character in the wider Batman universe, showing the show's enduring cultural impact.</p>
+    
+    <div class="scroll-container">
+      <div class="panel scroll-pop-in">
+        <div class="panel-label">Mr. Freeze</div>
+        <div class="panel-title">Heart of Ice</div>
+        <p>The episode "Heart of Ice" reinvented Mr. Freeze as a tragic figure, demonstrating how the series elevated villain storytelling beyond caricature. Victor Fries became a sympathetic character driven by loss and desperation.</p>
+        <p><a href="details/villains.html#freeze" class="panel-link">Learn about the rogues gallery →</a></p>
+      </div>
+      <div class="panel scroll-pop-in-delay-1">
+        <div class="panel-label">Harley Quinn</div>
+        <div class="panel-title">A Character Made for the Ages</div>
+        <p>Harley Quinn was created specifically for this series and became an iconic character in the wider Batman universe. Her introduction showed the show's ability to generate lasting cultural artifacts.</p>
+      </div>
+      <div class="panel scroll-pop-in-delay-2">
+        <div class="panel-label">Two-Face & Others</div>
+        <div class="panel-title">Complex Antagonists</div>
+        <p>From Two-Face's split psyche to Poison Ivy's environmental extremism, the series treated villains as fully realized characters with motivations, backstories, and moral complexity.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Exhibition Room V: Legacy -->
-<section id="legacy">
+<section id="legacy" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room V</div>
-      <h2 class="room-title">Legacy</h2>
-      <p class="room-subtitle">How Batman: TAS shaped superhero media</p>
+      <div class="room-number scroll-slide-in">Exhibition Room V</div>
+      <h2 class="room-title scroll-slide-in-delay-1">Legacy & <em>Influence</em></h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">How Batman: TAS shaped superhero media forever</p>
     </div>
-    <div class="panel">
-      <div class="panel-label">Influence</div>
-      <div class="panel-title">Across Media</div>
-      <p>The series influenced feature films, future animated shows, and video games, proving animation could tell complex, mature stories for a broad audience.</p>
-    </div>
-    <div class="panel">
-      <div class="panel-label">Awards</div>
-      <div class="panel-title">Recognition</div>
-      <p>Batman: The Animated Series won multiple Daytime Emmy Awards and critical acclaim, cementing its status as the definitive Batman interpretation.</p>
+    
+    <div class="scroll-container">
+      <div class="panel scroll-pop-in">
+        <div class="panel-label">Media Impact</div>
+        <div class="panel-title">Across Mediums</div>
+        <p>The series influenced feature films, future animated shows, and video games, proving animation could tell complex, mature stories for a broad audience. The success changed how studios greenlit animated projects.</p>
+      </div>
+      <div class="panel scroll-pop-in-delay-1">
+        <div class="panel-label">Awards & Recognition</div>
+        <div class="panel-title">Critical Acclaim</div>
+        <p>Batman: The Animated Series won multiple Daytime Emmy Awards and critical acclaim, cementing its status as the definitive Batman interpretation and the greatest superhero animated series ever made.</p>
+        <p><a href="details/awards.html" class="panel-link">See awards and accolades →</a></p>
+      </div>
+      <div class="panel scroll-pop-in-delay-2">
+        <div class="panel-label">Modern Era</div>
+        <div class="panel-title">Still Relevant Today</div>
+        <p>Decades after its finale, the series remains in active rotation, introducing new generations to its sophisticated storytelling. It stands as proof that quality, respect for the audience, and artistic integrity create lasting cultural touchstones.</p>
+      </div>
     </div>
   </div>
 </section>
 
 <!-- Exhibition Room VI: Curator Statement -->
-<section id="curator">
+<section id="curator" class="exhibition-room scroll-reveal">
   <div class="room-wrap">
     <div class="room-header">
-      <div class="room-number">Exhibition Room VI</div>
-      <h2 class="room-title">Curator Statement</h2>
-      <p class="room-subtitle">Why this show matters</p>
+      <div class="room-number scroll-slide-in">Exhibition Room VI</div>
+      <h2 class="room-title scroll-slide-in-delay-1">Curator Statement</h2>
+      <p class="room-subtitle scroll-slide-in-delay-2">Why this show matters, still</p>
     </div>
-    <div class="panel">
-      <p>Batman: The Animated Series redefined superhero storytelling by treating animation seriously, combining art, narrative, and voice acting to craft a cultural landmark. Its influence persists across every depiction of the Dark Knight and beyond.</p>
+    
+    <div class="panel curator-statement scroll-pop-in">
+      <p>Batman: The Animated Series redefined superhero storytelling by treating animation seriously, combining art, narrative, and voice acting to craft a cultural landmark. Its influence persists across every depiction of the Dark Knight and far beyond.</p>
+      <p>In choosing Batman: TAS as the subject of this digital exhibition, we acknowledge a show that refused to compromise. It treated its audience with respect, its craft with devotion, and its story with gravity. These choices—made in 1992—remain radical today.</p>
+      <p>This is how stories endure. This is what timeless means.</p>
     </div>
   </div>
 </section>
 
-<!-- Quote Section -->
-<div class="exhibit-quote">
-  <blockquote>“I am vengeance. I am the night. I am Batman.”</blockquote>
-  <cite>Batman: The Animated Series</cite>
-</div>
+<!-- Quote Section with Parallax -->
+<section class="exhibit-quote scroll-parallax">
+  <div class="quote-inner scroll-fade-in">
+    <blockquote>"I am vengeance. I am the night. I am Batman."</blockquote>
+    <cite>— Batman: The Animated Series</cite>
+  </div>
+</section>
 
 <!-- Footer -->
-<footer>
+<footer class="footer scroll-fade-in">
   <div class="footer-logo">The Gotham Archive</div>
-  <div class="footer-meta">Digital Museum Exhibit — Batman: TAS</div>
+  <div class="footer-meta">Digital Museum Exhibit — Batman: The Animated Series</div>
+  <div class="footer-nav">
+    <a href="#entrance">Back to Top</a>
+  </div>
 </footer>
 
 <!-- Link external JS here -->
